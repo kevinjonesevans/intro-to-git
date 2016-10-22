@@ -234,7 +234,7 @@ These are Github specific terms (though other platforms have adopted them).
 ---
 
 > **_In-Class Exercise_:**  
-> 1. Create a new fork of... [girldevelopitdayton/memehub](https://github.com/girldevelopitdayton/memehub)
+> 1. Create a new fork of... [gdidayton/memehub](https://github.com/gdidayton/memehub)
 2. Clone the fork and add new animated gif the respository.
 3. Submit a pull-request.
 
