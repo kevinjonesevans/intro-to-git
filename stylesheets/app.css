@@ -30,3 +30,7 @@
   background: transparent;
   box-shadow: none;
 }
+
+.reveal .slides{
+  top: 0;
+}

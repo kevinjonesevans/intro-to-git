@@ -241,3 +241,7 @@ These are Github specific terms (though other platforms have adopted them).
 ---
 
 <br>
+
+---
+
+[A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/)
