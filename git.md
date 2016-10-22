@@ -140,7 +140,7 @@ _(Github is just another remote repository.)_
 
 ---
 
-`git clone`
+`git clone <url>`
 
 * Creates a "clone" of a remote repository.
 * Copies the entire commit history to your computer.
