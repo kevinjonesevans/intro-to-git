@@ -6,22 +6,6 @@
 <br>
 
 ### Kevin T. Jones-Evans  <!-- .element: class="dark" -->
-https://github.com/kevinjonesevans/intro-to-git
-
----
-
-## Welcome!
-
-_Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction._
-
----
-
-## Some Rules
-
-* We are here for you&mdash; ask questions!
-* Every question is important.
-* Help each other.
-* Have fun.
 
 ---
 
