@@ -8,7 +8,7 @@
 > **_Get Familiar with Bash_**  
 
 > * Use the previous markdown section
-> * Make a new directory, cat some files, etc
+> * Navigate around, cat some files, etc
 
 ---
 
