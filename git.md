@@ -3,6 +3,15 @@
 1. Download starter kit... http://bit.ly/intro-to-git-starter-kit
 2. Open a new Bash window and `cd` in to the starter kit's directory
 
+---
+
+> **_Get Familiar with Bash_**  
+
+> * Use the previous markdown section
+> * Make a new directory, cat some files, etc
+
+---
+
 First, let's personalize Git by setting some configuration values...
 
 `git config --global user.name "Your Name"`
@@ -36,6 +45,7 @@ If you ever make a mistake, you can recover a previous state of a file.
 * Initializes a new "repository"
 * Tells git to keep track of changes in your current directory
 * `ls -la .git`
+
 
 `git status`
 
@@ -73,7 +83,7 @@ If you ever make a mistake, you can recover a previous state of a file.
 
 > **_Demo_:**  
 > 1. Add new `README.md` and update `index.html`  
-2. Make two seperate commits to illustrate staging area.
+2. Make two separate commits to illustrate staging area.
 
 > _(Checkout `git log -p`)_
 
@@ -144,7 +154,7 @@ _(Github is just another remote repository.)_
 
 > **_Demo_:**  
 > 1. Edit a file on Github.
-2. Pull it's changes down.
+> 2. Pull it's changes down.
 
 ---
 
@@ -220,6 +230,8 @@ When you encounter a conflict, you need to edit the file by hand.
 2. Merge the branches.
 3. Resolve the conflict.
 
+Note: Branch BEFORE editing the files.
+
 ---
 
 <br>
@@ -237,10 +249,6 @@ These are Github specific terms (though other platforms have adopted them).
 > 1. Create a new fork of... [gdidayton/memehub](https://github.com/gdidayton/memehub)
 2. Clone the fork and add new animated gif the respository.
 3. Submit a pull-request.
-
----
-
-<br>
 
 ---
 
