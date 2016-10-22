@@ -6,7 +6,7 @@
 <br>
 
 ### Kevin T. Jones-Evans  <!-- .element: class="dark" -->
-http://github.com/kevinjonesevans/intro-to-git
+https://github.com/kevinjonesevans/intro-to-git
 
 ---
 
