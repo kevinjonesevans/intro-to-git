@@ -5,8 +5,8 @@
 ## Version Control <small class="gray">And Related Topics</small>  
 <br>
 
-### Taylor C. MacDonald  <!-- .element: class="dark" -->
-https://github.com/tcmacdonald/intro-to-git
+### Kevin T. Jones-Evans  <!-- .element: class="dark" -->
+https://github.com/kevinjonesevans/intro-to-git
 
 ---
 
@@ -137,4 +137,3 @@ There are also some GUIs for Git...
 ---
 
 ## Questions?
-

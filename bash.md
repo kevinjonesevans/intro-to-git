@@ -10,6 +10,8 @@ _Hint: You can install Bash bindings in Windows via [Git for Windows](https://gi
 
 ![](./images/bash.png)
 
+---
+
 ## Why Bash?
 
 * A fully-capable scripting language
@@ -22,6 +24,8 @@ _Hint: You can install Bash bindings in Windows via [Git for Windows](https://gi
     * Startup scripts
     * ...and more!
 
+---
+
 ## Essential Commands
 
 In this next part, we'll learn some basic commands that we can use to interact with our Bash shell.
@@ -31,9 +35,9 @@ The outline below is provided as a handy reference of the commands we'll cover i
 
 ---
 
-`pwd` - Display your _"present working directory"_.
+### Navigation
 
----
+`pwd` - Display your _"present working directory"_.
 
 `ls` - Display the contents of a directory specified by `<path>`.
 > __Optional Flags:__  
@@ -46,18 +50,6 @@ The outline below is provided as a handy reference of the commands we'll cover i
 > __Hint:__  
 > You can use the wildcard character too... `ls *.txt`
 
----
-
-`man` - Display documentation for a given command. _"Man" is short for "manual"._
-
-> __Required Arguments:__  
-> The command to display documentation for... `man <command>`
-
-> __Hints:__  
-> Exit a man page by pressing the 'q' key on your keyboard.
-
----
-
 `cd` - Change to directory specified by `<path>`
 
 > __Optional Arguments:__  
@@ -68,29 +60,6 @@ The outline below is provided as a handy reference of the commands we'll cover i
 > Return to previous working directory... `cd -`  
 > Root of filesystem... `cd /`  
 > Your home directory... `cd ~` or `cd --`  
-
----
-
-`open` - View directory or file specified by `<path>`.
-
-> __Required Arguments:__  
-> Directory or file... `open <path>`
-
-> __Special Characters:__  
-> A dot character refers to the current directory... `open .`
-
-> __Note For Windows Users...__  
-> Use this command instead... `explorer .`
-
----
-
-`mkdir` - Make a new directory.  
-
-> __Required Arguments:__  
-> The name of the new directory... `mkdir <name>`
-
-> __Optional Flags:__  
-> Create intermediate directories as required. ... `mkdir -p <path>`  
 
 ---
 
@@ -141,12 +110,20 @@ The outline below is provided as a handy reference of the commands we'll cover i
 
 ---
 
+### Changing Things
+
+`mkdir` - Make a new directory.  
+
+> __Required Arguments:__  
+> The name of the new directory... `mkdir <name>`
+
+> __Optional Flags:__  
+> Create intermediate directories as required. ... `mkdir -p <path>`  
+
 `mv` - Move (or rename) a file or directory  
 
 > __Required Arguments:__  
 > The target and destination... `mv <target> <destination>`
-
----
 
 `cp` - Copy a file or directory  
 
@@ -155,8 +132,6 @@ The outline below is provided as a handy reference of the commands we'll cover i
 
 > __Optional flags:__  
 > Copy recursively (directories)... `cp -R`  
-
----
 
 `rm` - Remove files and directories  
 
@@ -168,89 +143,26 @@ The outline below is provided as a handy reference of the commands we'll cover i
 
 ---
 
+`open` - View directory or file specified by `<path>`.
+
+> __Required Arguments:__  
+> Directory or file... `open <path>`
+
+> __Special Characters:__  
+> A dot character refers to the current directory... `open .`
+
+> __Note For Windows Users...__  
+> Use this command instead... `explorer .`
+
+`man` - Display documentation for a given command. _"Man" is short for "manual"._
+
+> __Required Arguments:__  
+> The command to display documentation for... `man <command>`
+
+> __Hints:__  
+> Exit a man page by pressing the 'q' key on your keyboard.
+
 `history` - Show command history  
 > __Special Characters:__  
 > Recall previous command... `!!`  
 > Repeat command in your history... `!<linenumber>`  
-
----
-
-`vim` - Create and edit text files.
-> __Optional Arguments:__  
-> The directory or file(s) you want edit... `vim <path>`
-
----
-
-## Editing Text Files with Vim
-
-Vim (which stands for Vi-improved) is a heavy-duty text-editor alot of developers use full-time.
-
-![](./images/vim.png)
-
-It is, admittedly, confusing as hell for new users because it relies solely on keyboard shortcuts to navigate the interface. But it's installed almost everywhere (and is generally the default editor on most Unix-esque systems) so its worth being familiar with.
-&nbsp;  
-
-### Entering Insert Mode
-
-The trickiest part about using `vim` is understanding that there are multiple "modes". The current mode you're in determines what features are available. For example– if you want to edit an open file, you'll need to enter "insert mode" by pressing the `a` key or `i` key on your keyboard.
-
-You can tell that you're in "insert mode" if you see `-- INSERT --` displayed in the bottom left corner of your editor window. Once you're in "insert mode" you can type normally and move the cursor around the window with your arrow keys.
-&nbsp;  
-
-### Saving Your Edits
-
-After you make your edits, you'll probably want to save them right? To do this, you first need to exit "insert mode" by pressing the `esc` key on your keyboard.
-
-Next you issue a couple keystrokes in order to tell Vim you want to save your changes. Type the following characters and hit enter to "write" your changes to disk... `:w` (that is a colon followed by the letter w).
-&nbsp;  
-
-### Exiting Vim
-
-Closing your open file is alot like saving your edits above. Type the following characters and hit enter to "quit" vim... `:q` (colon then the letter q).
-
-You can also combine these two actions into one like so... `:wq`
-
-&nbsp;  
-
-### Common Tasks
-
-You can create a new file or open an existing file the same way. Just pass a filename as the first argument to the `vim` command...
-
-    $ vim some-filename
-
-&nbsp;  
-
-Here's list of common keyboard shortcuts, the vast majority of which are not applicable .
-
-
-__`i`__ or __`a`__ - Enter insert mode  
-__`v`__ - Enter visual mode  
-__`esc`__ - Exit your current mode  
-&nbsp;  
-
-__`Ctrl + f`__ - Page down  
-__`Ctrl + b`__ - Page up  
-__`gg`__ - Go to the top of the file  
-__`G`__ - Go to the bottom of the file  
-__`0`__ - (zero) Go to beginning of line  
-__`$`__ - Go to end of line  
-&nbsp;  
-
-__`:w`__ - Write changes to a file  
-__`:q`__ - Quit vim  
-__`:wq`__ - Write and quit  
-&nbsp;  
-
-__`cw`__ - Change word and enter insert mode  
-__`yy`__ - Copy current line  
-__`dd`__ - Delete current line  
-__`p`__ -  Paste  
-__`u`__ - Undo  
-__`Ctrl + R`__ - Redo  
-&nbsp;  
-
-__`k`__ or __`↑`__ - Move cursor up  
-__`j`__ or __`↓`__ - Move cursor down  
-__`l`__ or __`→`__ - Move cursor right  
-__`h`__ or __`←`__ - Move cursor left  
-&nbsp;  

@@ -6,6 +6,7 @@
 First, let's personalize Git by setting some configuration values...
 
 `git config --global user.name "Your Name"`
+<br/>
 `git config --global user.email "your_email@whatever.com"`
 
 <br>
@@ -21,6 +22,12 @@ Git will track the contents of every file within a directory.
 As you're working on the files, you can create "save-points" (aka "revisions"; aka "commmits").  
 
 If you ever make a mistake, you can recover a previous state of a file.
+
+---
+
+### Visual of Git Workflow
+
+![](./images/basic-remote-workflow.png)
 
 ---
 
@@ -49,12 +56,12 @@ If you ever make a mistake, you can recover a previous state of a file.
 
 `git add`
 
-* Adds the specified files to the stage<br>(i.e. tell Git to incude this file in the next save-point).
+* Adds the specified files to the stage<br>(i.e. tell Git to include this file in the next save-point).
 * `git add .`
 
 `git commit -m "initial commit."`
 
-* Create a new save-point by commiting our changes to the repository.
+* Create a new save-point by committing our changes to the repository.
 * Use the `-m` flag to pass commit message inline.
 
 `git log`
@@ -149,8 +156,8 @@ _(Github is just another remote repository.)_
 ---
 
 > **_Did You Know?_**  
-> There are three ways to start a new project... 
-1. `git init` 
+> There are three ways to start a new project...
+1. `git init`
 2. `git clone`
 3. Fork a repository and `git clone`
 
@@ -196,7 +203,7 @@ Delete a branch:
 
 Conflicts happen when Git doesn't know how to merge your code.
 
-They look like this... 
+They look like this...
 
     <<<<<<< HEAD
     This was once a test, but is no longer.
@@ -227,11 +234,10 @@ These are Github specific terms (though other platforms have adopted them).
 ---
 
 > **_In-Class Exercise_:**  
-> 1. Create a new fork of... [girldevelopitcincinnati/memehub](https://github.com/girldevelopitcincinnati/memehub)
+> 1. Create a new fork of... [girldevelopitdayton/memehub](https://github.com/girldevelopitdayton/memehub)
 2. Clone the fork and add new animated gif the respository.
 3. Submit a pull-request.
 
 ---
 
 <br>
-
