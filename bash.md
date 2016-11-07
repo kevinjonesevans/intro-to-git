@@ -69,10 +69,10 @@ The outline below is provided as a handy reference of the commands we'll cover i
 > File url... `wget <url>`
 
 > __Hint:__  
-> Try executing this... `wget http://www.gutenberg.org/cache/epub/2600/pg2600.txt`
+> Try executing this... `wget http://www.gutenberg.org/files/2600/pg2600.txt`
 
 > __Note for Mac Users:__  
-> If you don't have `wget` try this... `curl -O  http://www.gutenberg.org/cache/epub/2600/pg2600.txt`
+> If you don't have `wget` try this... `curl -O  http://www.gutenberg.org/files/2600/pg2600.txt`
 
 ---
 
