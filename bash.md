@@ -96,7 +96,7 @@ The outline below is provided as a handy reference of the commands we'll cover i
 > The file to display... `head <file>`
 
 > __Optional Flags:__  
-> Specify `n` lines... head -n 25 <file>`
+> Specify `n` lines... `head -n 25 <file>`
 
 ---
 
@@ -106,7 +106,7 @@ The outline below is provided as a handy reference of the commands we'll cover i
 > The file to display... `tail <file>`
 
 > __Optional Flags:__  
-> Specify `n` lines... tail -n 25 <file>`
+> Specify `n` lines... `tail -n 25 <file>`
 
 ---
 
