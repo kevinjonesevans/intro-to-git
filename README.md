@@ -1,4 +1,4 @@
-# Intro to Git &amp; Github :octocat:  
+# Intro to Command Line, Git &amp; GitHub :octocat:  
 
 **Presented by [Girl Develop It, Dayton](http://gdidayton.com)**
 Much Love to, Forked from [tcmacdonald](https://github.com/tcmacdonald) from [gdicincy](http://git.gdicincy.com/).
@@ -35,7 +35,8 @@ Sign up for free at [https://github.com/join](https://github.com/join).
 
 Resource|URL
 ---|---
-Slides|[http://kevinjonesevans.github.io/intro-to-git/#/](http://kevinjonesevans.github.io/intro-to-git/#/)
-Part One: Intro to Bash|[https://github.com/kevinjonesevans/intro-to-git/blob/master/bash.md](https://github.com/kevinjonesevans/intro-to-git/blob/master/bash.md)
-Part Two: Intro to Git|[https://github.com/kevinjonesevans/intro-to-git/blob/master/git.md](https://github.com/kevinjonesevans/intro-to-git/blob/master/git.md)
-Starter Kit|[https://github.com/kevinjonesevans/intro-to-git-starter-kit](https://github.com/kevinjonesevans/intro-to-git-starter-kit)
+Intro|[Intro Slides](https://gdidayton.github.io/intro-to-git/intro-slides.html)
+Slides|[http://gdidayton.com/intro-to-git/#/](https://gdidayton.github.io/intro-to-git/#/)
+Part One: Intro to Bash|[https://github.com/gdidayton/intro-to-git/blob/master/bash.md](https://github.com/gdidayton/intro-to-git/blob/master/bash.md)
+Part Two: Intro to Git|[https://github.com/gdidayton/intro-to-git/blob/master/git.md](https://github.com/gdidayton/intro-to-git/blob/master/git.md)
+Starter Kit|[http://bit.ly/intro-to-git-starter-kit](http://bit.ly/intro-to-git-starter-kit)

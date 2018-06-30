@@ -1,5 +1,6 @@
-![Girl Develop It](http://gdicincy.com/images/gdi-badge-250x250.png) <!-- .element: class="no-border" -->
+![Girl Develop It](images/gdi-dayton-logo.png) <!-- .element: class="no-border" -->
 
+[See everything in the repo](https://github.com/gdidayton/intro-to-git)
 ---
 
 ## Version Control <small class="gray">And Related Topics</small>  
